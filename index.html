@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /> 
+    <title>Landing-page</title>
+</head>
+<body>
+
+                        <!--- Barra de Navegacion --->
+
+    <header>
+        <img class="logo" src="./Assets/logo.svg" alt="logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="#episodios"  target="_parent">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#invitados">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+                        <!--- Portada --->
+
+    <section class="texto-p">
+        <h1>Hello <del>world</del> pale blue dot<samp style="color: blue;">.</samp></h1>
+        <span class="texto-1">
+            El portal de podcats que explora el mundo de la programación y <br/>
+            la tecnologia. Nuevos episodios, todos los jueves cada 15 dias.
+        </span>
+        <span class="texto-2">
+            Un podcats que explora el mundo de <br> la programacion. Nuevos episodios, <br> todos los jueves cada 15 dias.
+        </span>
+        <div class="conoce-mas">
+            <a href="#pie">
+                <button>CONOCÉ MÁS</button>
+            </a>
+        </div>
+    </section>
+
+                        <!--- Podcast --->
+
+    <section class="podcast" id="episodios">
+        <h2>Episodios</h2>
+        <article class="tarjetas">
+            <iframe src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="40%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="40%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" width="40%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ" width="40%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </article>
+    </section>
+
+
+                        <!--- Nosotros --->
+
+    <section id="nosotros" class="quienes-somos">
+        <article class="phone">
+            <img src="./assets/phone.png" alt="phone">
+        </article>
+        <article class="texto-quienes-somos">
+            <h2>De dónde venimos</h2>
+            <div class="texto">
+                <p>Our posturings, our imagined self-importance
+                    the delusion that we have some privileged
+                    position in the Universe. are challenged by this
+                    point of pale light 
+                </p>
+                    <br>
+                <p>
+                    Our planet is a loneley speck in the great
+                    eveloping cosmic dark. In our obscurity, in all
+                    this vastness, there is no hint that help will
+                    come from elsewhere to save us from ourselves
+                </p>
+            </div>      
+        </article>
+    </section>
+
+                        <!--- Invitados Especiales--->
+
+    <section id="invitados" class="invitados">
+        <h2>Invitadas/os estelares</h2>
+        <article class="invitados-fotos">
+            <img src="./assets/susan-kare.png" alt="">
+            <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+            <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+            <img src="./assets/grace-hopper.png" alt="">
+            <img src="./assets/Katie-Bouman.png" alt="">
+            <img src="./assets/Margaret_Hamilton.png" alt="">
+        </article>
+    </section>
+
+                            <!--- Temas --->
+
+    <section id="topicos" class="temas">
+        <h2>Algunos de nuestros temas</h2>
+        <article class="iconos-temas">
+            <div class="titulo-logo">
+                <img src="./assets/icon1.svg" alt="">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="titulo-logo">
+                <img src="./assets/icon2.svg" alt="">
+                <h3>Repensando la programación</h3>         
+            </div>
+            <div class="titulo-logo">
+                <img src="./assets/icon3.svg" alt="">
+                <h3>Bases del código</h3>
+            </div>
+            <div class="titulo-logo">
+                <img src="./assets/icon4.svg" alt="">
+                <h3>Seguridad informática</h3>
+            </div>
+        </article>   
+    </section>
+
+                        <!---Ultimas Novedades --->
+
+    <section class="novedades">
+        <h2>¿Querés las últimas novedades?</h2>
+        <a href="#episodios">
+            <button>ESCUCHÁ LOS EPISODIOS</button>
+        </a>
+    </section>
+                        <!--- Footer --->
+
+    <footer id="pie" class="pie">
+            <div class="copy">
+                <p>© 2019- Hello blue pale dot</p>
+            </div>
+            <div class="iconos">
+                <a href="https://www.spotify.com/uy/" target="_blank"><i class="fab fa-spotify spotify"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram instagram"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook facebook"></i></a>
+                <a href="https://web.telegram.org/#/login" target="_blank"> <i class="fab fa-telegram telegram"></i></a>
+            </div>ern
+    </footer>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Montserrat:wght@600;900&family=MuseoModerno:wght@400;700&family=Oswald:wght@200;300;400&family=PT+Sans&family=Raleway:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+                    /*** Barra de Navegacion ***/
+
+header {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    top: 0px;
+    background-color: rgb(255, 255, 255,);
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 100px;
+}
+
+.menu ul {
+    margin-right: 80px;
+    margin-top: 19px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .menu a {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.menu a:hover {
+    text-decoration: line-through;
+    color: rgb(24, 209, 209);
+}
+
+                        /*** Portada ***/
+
+.texto-p {
+    width: 100%;
+    padding: 120px 100px 0 15%;
+}
+
+h1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.conoce-mas {
+    margin-top: 56px;
+}
+
+.conoce-mas, button {
+    font-family: monospace;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    width: 226px;
+    height: 56px;
+    border: none;
+    transition: 0.7s;
+    background-color: rgb(8, 237, 245);
+    color: rgb(0, 0, 0);
+}
+
+.conoce-mas button:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 250);
+    background-image: linear-gradient(to right, rgb(8, 237, 245), rgb(66, 89, 218));
+}
+
+.texto-1{
+    font-family: monospace, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.texto-2 {
+    display: none;
+}
+
+                        /*** Podcast ***/
+
+.podcast {
+    margin-top: 5px;
+    height: 1143px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(22, 2, 134), rgb(43, 73, 241));
+    clip-path: polygon(0px 110px, 100% 0px, 100% 850px, 0px 1000px);
+}
+
+.podcast h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    display: inline-block;
+    margin: 186px 0 0 200px;
+    color: rgb(253, 255, 255);
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjetas iframe {
+    margin: 30px ;
+}
+
+            /*** De Donde Venimos ***/
+
+.quienes-somos{
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.phone {
+    height: 660px;
+    width: 458px;
+    margin-top: -90px;
+    z-index: 2;
+}
+
+.phone img {
+    height: 660px;
+    width: 458px;
+}
+
+.texto-quienes-somos h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    margin-left: 173px;
+}
+
+.texto {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 173px;
+    width: 524px;
+    height: auto;
+}
+
+            /*** Invitados ***/
+
+.invitados h2 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    margin: 44px 0 36px 200px;
+}
+
+.invitados-fotos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.invitados-fotos img {
+    height: auto;
+    width: 33.3%;
+    margin: 0;
+}
+
+            /*** Nuestros Temas***/
+
+.temas h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    margin: 44px 0 36px 200px;
+}
+
+.iconos-temas {
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+}
+
+.iconos-temas img {
+    width: 260px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.titulo-logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+            /*** Ultimas Novedades***/
+
+.novedades h2 {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 250, 255);
+}
+
+.novedades {
+    width: 100%;
+    height: 518px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 34px;
+    background-image: linear-gradient(to right, rgb(41, 6, 238), rgb(60, 86, 231));
+    clip-path: polygon(0px 100px, 100% 0px, 100% 518px, 0px 518px);
+}
+
+.novedades button {
+    font-family: monospace;
+    font-weight: 400;
+    width: 345px;
+    height: 56px;
+    margin-top: 36px;
+    background-color: rgb(24, 209, 209);
+}
+
+.novedades a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.novedades button:hover {
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(250, 255, 240);
+    background-image: linear-gradient(to right, rgb(8, 237, 245), rgb(20, 47, 201));
+}
+
+
+                        /*** Footer ***/
+
+.pie {
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.copy {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.iconos {
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+.iconos a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.iconos i {
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+}
+.spotify:hover {
+    color: rgb(45, 210, 45);
+    transition: 0.3s;
+}
+.instagram:hover {
+    color: rgb(223, 28, 61);
+    transition: 0.3s;
+}
+.twitter:hover {
+    color: rgb(45, 130, 210);
+    transition: 0.3s;
+}
+.facebook:hover {
+    color: rgb(26, 4, 150);
+    transition: 0.3s;
+}
+.telegram:hover {
+    color: rgb(45, 172, 210);
+    transition: 0.3s;
+}
+
+
